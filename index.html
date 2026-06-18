@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ارمیا مارکت</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>💰 ارمیا مارکت</h1>
+
+<input
+id="search"
+placeholder="جستجوی ارز..."
+onkeyup="searchCoin()">
+
+<button onclick="toggleTheme()">
+🌙
+</button>
+
+</header>
+
+<section class="converter">
+
+<h2>💱 تبدیل ارز</h2>
+
+<input type="number" id="amount" value="1">
+
+<select id="coinSelect"></select>
+
+<button onclick="convert()">
+تبدیل
+</button>
+
+<h3 id="result"></h3>
+
+</section>
+
+<section>
+
+<h2>⭐ واچ لیست</h2>
+
+<div id="watchlist"></div>
+
+</section>
+
+<section>
+
+<h2>📊 نمودار</h2>
+
+<canvas id="chart"></canvas>
+
+</section>
+
+<section>
+
+<h2>💹 بازار ارز</h2>
+
+<div id="coins"></div>
+
+</section>
+
+<script src="app.js"></script>
+
+</body>
+</html>
