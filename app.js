@@ -1,1 +1,1 @@
-document.body.innerHTML = "<h1>سلام ارمیا جان 🚀</h1>";
+alert("ارمیا جان، app.js اجرا شد!");
